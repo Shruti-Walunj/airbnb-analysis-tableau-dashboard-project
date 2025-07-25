@@ -1,4 +1,4 @@
-# 📊 Airbnb Market Analysis Dashboard using Tableau
+# 📊 Airbnb Market Analysis Dashboard Using Tableau
 
 # 📝 Description:
 Built a Tableau dashboard to help a potential Airbnb investor decide where to buy property, how to price it, and when to list it—using real-world Seattle Airbnb data from Kaggle.
