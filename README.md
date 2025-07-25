@@ -1,46 +1,28 @@
 # 📊 Airbnb Market Analysis Dashboard | Tableau
 
-# 📝 Description
-Designed a dynamic Tableau dashboard to help prospective Airbnb hosts in Seattle make informed decisions. The dashboard explores pricing, competition, seasonal trends, and neighborhood profitability using real-world Airbnb data.
+# 📝 Description:
+Built a Tableau dashboard to help a potential Airbnb investor decide where to buy property, how to price it, and when to list it—using real-world Seattle Airbnb data from Kaggle.
 
-# 🔧 Tools & Skills
-Tableau Public, Microsoft Excel, Data Cleaning, Data Joining, Map & Time Series Visualizations, Market Analysis
+# 🛠️ Key Tasks:
+Cleaned and combined two large datasets: listings (3818 rows, 92 columns) and calendar (1M+ rows)
 
-# 📁 Dataset
-Seattle Open Airbnb Dataset (Kaggle)
+Joined datasets to analyze price trends across location, time, and property features
 
-listings.csv (92 columns, 3,819 rows)
+Created 5 visualizations: price by zipcode, interactive map, revenue by week, average price per bedroom, and bedroom listing count
 
-calendar.csv (4 columns, 1,048,576 rows)
+Designed an interactive, insight-rich dashboard for strategic property investment
 
-# 🔄 Key Cleaning Steps
+# 📊 Insights:
+Zipcode 98134 had the highest avg price ($206.6), 98125 the lowest ($64.7)
 
-Converted large CSV files to Excel
+June is the peak revenue month; January is the lowest
 
-Merged listings and calendar using inner join on ID fields
+More bedrooms = higher prices (1-bedroom ~$96, 6-bedroom ~$585)
 
-Combined into a single workbook due to Tableau Public limitations
+Most listings are 1-bedroom (1811), while larger listings face less competition
 
-# ✅ Key Insights
-
-📍 High-priced zipcodes are ideal for investment (higher ROI potential)
-
-📈 Seasonality impacts weekly revenue—peak weeks are key to maximize income
-
-🛏️ Bedroom count influences both price and competition—3BR is most competitive, 4+ BR has niche potential
-
-💰 Revenue optimization is possible by aligning availability with demand cycles and choosing the right property type
-
-# 📥 How to Use
-Use interactive charts to:
-
-Filter neighborhoods by price
-
-Identify best weeks for booking
-
-Analyze bedroom-wise demand and competition
-
-Make informed property investment and pricing decisions
+# 🧠 Skills & Tools:
+ Tableau | Exploratory Data Analysis | Data Visualization | Dashboarding | Trend Analysis 
 
 # 👤 Author
 Shruti Walunj
